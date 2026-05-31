@@ -1,27 +1,9 @@
-English version repo and Gitbook is on [english branch](https://github.com/labuladong/fucking-algorithm/tree/english). Just enjoy：)
+[![Star History Chart](https://api.star-history.com/svg?repos=labuladong/fucking-algorithm&type=Date)](https://star-history.com/#labuladong/fucking-algorithm&Date)
 
-# labuladong 的算法小抄
 
-<p align='center'>
-<a href="https://labuladong.github.io/algo" target="_blank"><img alt="Website" src="https://img.shields.io/website?label=%E5%9C%A8%E7%BA%BF%E7%94%B5%E5%AD%90%E4%B9%A6&style=flat-square&down_color=blue&down_message=%E7%82%B9%E8%BF%99%E9%87%8C&up_color=blue&up_message=%E7%82%B9%E8%BF%99%E9%87%8C&url=https%3A%2F%2Flabuladong.gitee.io%2Falgo&logo=Gitea"></a>
-<a href="https://github.com/labuladong/fucking-algorithm" target="_blank"><img alt="GitHub" src="https://img.shields.io/github/stars/labuladong/fucking-algorithm?label=Stars&style=flat-square&logo=GitHub"></a>
-</p>
+English version is on [labuladong.online](https://labuladong.online/algo/en/) too. Just enjoy：)
 
-<p align='center'>
-<a href="https://www.github.com/labuladong" target="_blank"><img src="https://img.shields.io/badge/作者-@labuladong-000000.svg?style=flat-square&logo=GitHub"></a>
-<a href="https://www.zhihu.com/people/labuladong" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@labuladong-000000.svg?style=flat-square&logo=Zhihu"></a>
-<a href="https://i.loli.net/2020/10/10/MhRTyUKfXZOlQYN.jpg" target="_blank"><img src="https://img.shields.io/badge/公众号-@labuladong-000000.svg?style=flat-square&logo=WeChat"></a>
-<a href="https://space.bilibili.com/14089380" target="_blank"><img src="https://img.shields.io/badge/B站-@labuladong-000000.svg?style=flat-square&logo=Bilibili"></a>
-</p>
-
-![](pictures/souyisou.png)
-
-好消息，《labuladong 的算法小抄》纸质书出版啦！关注公众号查看详情👆
-
-<p align='center'>
-<img src="./starHistory.png" width = "600" />
-</p>
-
+# labuladong 的算法笔记
 
 本仓库总共 60 多篇原创文章，都是基于 LeetCode 的题目，涵盖了所有题型和技巧，而且一定要做到**举一反三，通俗易懂**，绝不是简单的代码堆砌，后面有目录。
 
@@ -35,211 +17,426 @@ English version repo and Gitbook is on [english branch](https://github.com/labul
 
 **做啥事情做多了，都能发现套路的，我把各种算法套路框架总结出来，相信可以帮助其他人少走弯路**。我这个纯靠自学的小童鞋，花了一年时间刷题和总结，自己写了一份算法小抄，后面有目录，这里就不废话了。
 
-### 使用方法
+## 在开始学习之前
 
 **1、先给本仓库点个 star，满足一下我的虚荣心**，文章质量绝对值你一个 star。我还在继续创作，给我一点继续写文的动力，感谢。
 
-**2、建议关注我的公众号 labuladong，坚持高质量原创，说是最良心最硬核的技术公众号都不为过**。本仓库的文章就是从公众号里整理出来的**一部分**内容，公众号可以查看更多内容：
+**2、建议收藏我的在线网站，每篇文章开头都有对应的力扣题目链接，可以边看文章边刷题，一共可以手把手带你刷 500 道题目**：
 
-<p align='center'>
-<img src="./pictures/qrcode.jpg" width = "200" />
-</p>
+2024 最新地址：https://labuladong.online/algo/
 
-**3、建议收藏我的在线网站，每篇文章开头都有对应的力扣题目链接，可以边看文章边刷题，一共可以手把手带你刷 200 多道题目**：
+~~GitHub Pages 地址：https://labuladong.online/algo/~~
 
-GitHub Pages 地址：https://labuladong.github.io/algo/
+~~Gitee Pages 地址：https://labuladong.gitee.io/algo/~~
 
-Gitee Pages 地址：https://labuladong.gitee.io/algo/
+## labuladong 刷题全家桶简介
 
-**4、建议安装我的 [刷题辅助插件](https://mp.weixin.qq.com/s/wIxflO1dvXzDlibhEcENcQ)，方便在网页刷题**：
+### 一、算法可视化面板
 
-![](./pictures/plugin.jpg)
-
-**5、欢迎关注 [我的知乎](https://www.zhihu.com/people/labuladong) 和 [B 站](https://space.bilibili.com/14089380)**。
-
-我一直在写优质文章，但是后续的文章只发布到公众号/网站/知乎，不能开放到 GitHub。因为本仓库太火了，很多人直接拿我的文章去开付费专栏，价格还不便宜，我这免费写给您看，何必掏冤枉钱呢？所以多多关注本作者，多多宣传，谁也不希望劣币驱逐良币不是么？
-
-其他的先不多说了，直接上干货吧，我们一起搞定 LeetCode，感受一下支配算法的乐趣。
-
-# 目录
-
-### 第零章、必读文章
-
-  * [学习算法和刷题的框架思维](https://labuladong.github.io/article/wx.html?wx=ZYaXOSVM3YBIeRWm7E_jcQ) 
-  * [我的刷题心得](https://labuladong.github.io/article/wx.html?wx=_XhcgHrI15PsPp-Ie87p3w)
-  * [动态规划解题套路框架](https://labuladong.github.io/article/?qno=509) 
-  * [回溯算法解题套路框架](https://labuladong.github.io/article/?qno=51) 
-  * [BFS 算法解题套路框架](https://labuladong.github.io/article/?qno=111) 
-  * [手把手带你刷二叉树（纲领篇）](https://labuladong.github.io/article/?qno=104)
-  * [一文搞懂单链表的六大解题套路](https://labuladong.github.io/article/?qno=21)
-  * [一文秒杀所有岛屿题目](https://labuladong.github.io/article/?qno=200)
-  * [我写了首诗，让你闭着眼睛也能写对二分搜索](https://labuladong.github.io/article/?qno=704) 
-  * [我写了首诗，把滑动窗口算法算法变成了默写题](https://labuladong.github.io/article/?qno=76) 
-  * [一个方法团灭 LeetCode 股票买卖问题](https://labuladong.github.io/article/?qno=121) 
-  * [一个方法团灭 LeetCode 打家劫舍问题](https://labuladong.github.io/article/?qno=198) 
-  * [一个方法团灭 nSum 问题](https://labuladong.github.io/article/?qno=15) 
-  * [提高刷题幸福感的小技巧](https://labuladong.github.io/article/wx.html?wx=ucGZavJVKNCJ5j7T15voZA)
+我的算法网站、所有配套插件都集成了一个算法可视化工具，可以对数据结构和递归过程进行可视化，大幅降低理解算法的难度。几乎每道题目的解法代码都有对应的可视化面板，具体参见下方介绍。
 
 
-### 第一章、手把手刷数据结构
+### 二、学习网站
 
-  * [手把手刷链表题目](https://labuladong.github.io/algo/)
-    * [一文搞懂单链表的六大解题套路](https://labuladong.github.io/article/?qno=21)
-    * [递归反转链表的一部分](https://labuladong.github.io/article/?qno=206) 
-    * [如何 K 个一组反转链表](https://labuladong.github.io/article/?qno=25) 
-    * [如何判断回文链表](https://labuladong.github.io/article/?qno=234) 
+内容当然是我的系列算法教程中最核心的部分，我的算法教程都发布在网站 [labuladong.online](https://labuladong.online/algo/) 上，相信你会未来会在这里花费大量的学习时间，而不是仅仅加入收藏夹~
 
-  * [手把手刷二叉树](https://labuladong.github.io/algo/)
-    * [手把手带你刷二叉树（纲领篇）](https://labuladong.github.io/article/?qno=104)
-    * [手把手带你刷二叉树（第一期）](https://labuladong.github.io/article/?qno=226) 
-    * [手把手带你刷二叉树（第二期）](https://labuladong.github.io/article/?qno=654) 
-    * [手把手带你刷二叉树（第三期）](https://labuladong.github.io/article/?qno=652) 
-    * [手把手带你刷二叉搜索树（第一期）](https://labuladong.github.io/article/?qno=230) 
-    * [手把手带你刷二叉搜索树（第二期）](https://labuladong.github.io/article/?qno=450) 
-    * [手把手带你刷二叉搜索树（第三期）](https://labuladong.github.io/article/?qno=96) 
-    * [美团面试官：你对后序遍历一无所知](https://labuladong.github.io/article/?qno=1373)
-    * [二叉树的序列化，就那几个框架，枯燥至极](https://labuladong.github.io/article/?qno=297) 
-    * [题目不让我干什么，我偏要干什么](https://labuladong.github.io/article/?qno=341) 
-    * [Git原理之最近公共祖先](https://labuladong.github.io/article/?qno=236) 
-    * [如何计算完全二叉树的节点数](https://labuladong.github.io/article/?qno=222) 
-    * [二叉树八股文：递归改迭代](https://labuladong.github.io/article/wx.html?wx=jI8_-E6rx2HVBOmuQOTgHg)
+![](https://labuladong.github.io/pictures/简介/web_intro1.jpg)
 
-  * [手把手刷图算法](https://labuladong.github.io/algo/)
-    * [图论基础](https://labuladong.github.io/article/?qno=797)
-    * [拓扑排序详解及运用](https://labuladong.github.io/article/?qno=207)
-    * [二分图判定](https://labuladong.github.io/article/?qno=785)
-    * [Union-Find算法详解](https://labuladong.github.io/article/?qno=323) 
-    * [Union-Find算法应用](https://labuladong.github.io/article/?qno=130) 
-    * [Kruskal 最小生成树算法](https://labuladong.github.io/article/?qno=261)
-    * [Prim 最小生成树算法](https://labuladong.github.io/article/wx.html?wx=bvi0wGdbtB4nkYye0yzmqg)
-    * [众里寻他千百度：名流问题](https://labuladong.github.io/article/?qno=277)
-    * [我写了一个模板，把 Dijkstra 算法变成了默写题](https://labuladong.github.io/article/?qno=743)
+### 三、Chrome 插件
 
-  * [手把手设计数据结构](https://labuladong.github.io/algo/)
-    * [算法就像搭乐高：带你手撸 LRU 算法](https://labuladong.github.io/article/?qno=146) 
-    * [算法就像搭乐高：带你手撸 LFU 算法](https://labuladong.github.io/article/?qno=460) 
-    * [前缀树算法模板秒杀五道算法题](https://labuladong.github.io/article/?qno=208)
-    * [数据结构设计：最大栈](https://labuladong.github.io/article/?qno=895)
-    * [一道求中位数的算法题把我整不会了](https://labuladong.github.io/article/?qno=295) 
-    * [设计朋友圈时间线功能](https://labuladong.github.io/article/?qno=355)
-    * [单调栈结构解决三道算法题](https://labuladong.github.io/article/?qno=496) 
-    * [单调队列结构解决滑动窗口问题](https://labuladong.github.io/article/?qno=239) 
-    * [二叉堆详解实现优先级队列](https://labuladong.github.io/article/wx.html?wx=o7tdyLiYm668dpUWd-x7Lg) 
-    * [队列实现栈以及栈实现队列](https://labuladong.github.io/article/?qno=232) 
+**主要功能**：Chrome 插件可以在中文版力扣或英文版 LeetCode 上快捷查看我的「题解」或「思路」，并添加了题目和算法技巧之间的引用关系，可以和我的网站/公众号/课程联动，给我的读者提供最丝滑的刷题体验。安装使用手册见下方目录。
 
-  * [手把手刷数组题目](https://labuladong.github.io/algo/)
-    * [小而美的算法技巧：前缀和数组](https://labuladong.github.io/article/?qno=303) 
-    * [小而美的算法技巧：差分数组](https://labuladong.github.io/article/?qno=370) 
-    * [二维数组的花式遍历技巧](https://labuladong.github.io/article/?qno=48)
-    * [双指针技巧总结](https://labuladong.github.io/article/?qno=167) 
-    * [我写了首诗，把滑动窗口算法算法变成了默写题](https://labuladong.github.io/article/?qno=76) 
-    * [我写了首诗，让你闭着眼睛也能写对二分搜索](https://labuladong.github.io/article/?qno=704) 
-    * [二分搜索怎么用？我又总结了套路](https://labuladong.github.io/article/?qno=875)
-    * [我和快手面试官对二分搜索进行了深度探讨](https://labuladong.github.io/article/?qno=410)
-    * [田忌赛马背后的算法决策](https://labuladong.github.io/article/?qno=870)
-    * [给我常数时间，我可以删除/查找数组中的任意元素](https://labuladong.github.io/article/?qno=380) 
-    * [带权重的随机选择算法](https://labuladong.github.io/article/?qno=528)
-    * [一道数组去重的算法题把我整不会了](https://labuladong.github.io/article/?qno=316) 
-    * [如何去除有序数组的重复元素](https://labuladong.github.io/article/?qno=26) 
-    * [twoSum问题的核心思想](https://labuladong.github.io/article/?qno=1) 
+![](https://labuladong.github.io/pictures/简介/chrome_intro.jpg)
 
-### 第二章、手把手刷动态规划
 
-  * [动态规划基本技巧](https://labuladong.github.io/algo/)
-    * [动态规划解题核心框架](https://labuladong.github.io/article/?qno=509) 
-    * [动态规划设计：最长递增子序列](https://labuladong.github.io/article/?qno=300)
-    * [最优子结构原理和 dp 数组遍历方向](https://labuladong.github.io/article/wx.html?wx=qvlfyKBiXVX7CCwWFR-XKg) 
-    * [base case 和备忘录的初始值怎么定？](https://labuladong.github.io/article/?qno=931)
-    * [对动态规划进行降维打击](https://labuladong.github.io/article/wx.html?wx=SnyN1Gn6DTLm0uJyp5l6CQ)
-    * [动态规划和回溯算法到底谁是谁爹？](https://labuladong.github.io/article/?qno=494) 
+### 四、vscode 插件
 
-  * [子序列类型问题](https://labuladong.github.io/algo/)
-    * [经典动态规划：编辑距离](https://labuladong.github.io/article/?qno=72) 
-    * [动态规划设计：最长递增子序列](https://labuladong.github.io/article/?qno=300)
-    * [二维递增子序列：信封嵌套问题](https://labuladong.github.io/article/?qno=354) 
-    * [动态规划设计：最大子数组](https://labuladong.github.io/article/?qno=53) 
-    * [经典动态规划：最长公共子序列](https://labuladong.github.io/article/?qno=1143) 
-    * [动态规划之子序列问题解题模板](https://labuladong.github.io/article/?qno=516) 
+**主要功能**：和 Chrome 插件功能基本相同，习惯在 vscode 上刷题的读者可以使用该插件。安装使用手册见下方目录。
 
-  * [背包类型问题](https://labuladong.github.io/algo/)
-    * [经典动态规划：0-1 背包问题](https://labuladong.github.io/article/wx.html?wx=RXfnhSpVBmVneQjDSUSAVQ) 
-    * [经典动态规划：子集背包问题](https://labuladong.github.io/article/?qno=416) 
-    * [经典动态规划：完全背包问题](https://labuladong.github.io/article/?qno=518) 
+![](https://labuladong.github.io/pictures/简介/vs_intro.jpg)
 
-  * [用动态规划玩游戏](https://labuladong.github.io/algo/)
-    * [动态规划之最小路径和](https://labuladong.github.io/article/?qno=64)
-    * [动态规划帮我通关了《魔塔》](https://labuladong.github.io/article/?qno=174)
-    * [动态规划帮我通关了《辐射4》](https://labuladong.github.io/article/?qno=514)
-    * [旅游省钱大法：加权最短路径](https://labuladong.github.io/article/?qno=787)
-    * [经典动态规划：正则表达式](https://labuladong.github.io/article/?qno=10) 
-    * [经典动态规划：高楼扔鸡蛋](https://labuladong.github.io/article/wx.html?wx=xn4LjWfaKTPQeCXR0qDqZg) 
-    * [经典动态规划：高楼扔鸡蛋（进阶）](https://labuladong.github.io/article/wx.html?wx=7XPGKe7bMkwovH95cnhang) 
-    * [经典动态规划：戳气球](https://labuladong.github.io/article/?qno=312) 
-    * [经典动态规划：博弈问题](https://labuladong.github.io/article/wx.html?wx=xTeOzqNiGJwbwIpS3ySZqw) 
-    * [经典动态规划：四键键盘](https://labuladong.github.io/article/?qno=651) 
-    * [一个方法团灭 LeetCode 打家劫舍问题](https://labuladong.github.io/article/?qno=198) 
-    * [一个方法团灭 LeetCode 股票买卖问题](https://labuladong.github.io/article/?qno=121) 
-    * [有限状态机之 KMP 字符匹配算法](https://labuladong.github.io/article/?qno=28) 
-    * [构造回文的最小插入次数](https://labuladong.github.io/article/?qno=1312) 
 
-  * [贪心类型问题](https://labuladong.github.io/algo/)
-    * [贪心算法之区间调度问题](https://labuladong.github.io/article/?qno=435) 
-    * [扫描线技巧：安排会议室](https://labuladong.github.io/article/?qno=253)
-    * [剪视频剪出一个贪心算法](https://labuladong.github.io/article/?qno=1024)
-    * [如何运用贪心思想玩跳跃游戏](https://labuladong.github.io/article/?qno=55) 
-    * [当老司机学会了贪心算法](https://labuladong.github.io/article/?qno=134)
+### 五、Jetbrains 插件
 
-### 第三章、必知必会算法技巧
+**主要功能**：和 Chrome 插件功能基本相同，习惯在 Jetbrains 家的 IDE（PyCharm/Intellij/Goland 等）上刷题的读者可以使用该插件。安装使用手册见下方目录。
 
-  * [暴力搜索算法](https://labuladong.github.io/algo/)
-    * [回溯算法解题套路框架](https://labuladong.github.io/article/?qno=51) 
-    * [经典回溯算法：集合划分问题](https://labuladong.github.io/article/?qno=698)
-    * [回溯算法团灭子集、排列、组合问题](https://labuladong.github.io/article/?qno=78) 
-    * [回溯算法最佳实践：解数独](https://labuladong.github.io/article/?qno=37) 
-    * [回溯算法最佳实践：括号生成](https://labuladong.github.io/article/?qno=22) 
-    * [BFS 算法解题套路框架](https://labuladong.github.io/article/?qno=111) 
-    * [如何用 BFS 算法秒杀各种智力题](https://labuladong.github.io/article/?qno=773) 
+![](https://labuladong.github.io/pictures/简介/jb_intro.jpg)
 
-  * [数学运算技巧](https://labuladong.github.io/algo/)
-    * [常用的位操作](https://labuladong.github.io/article/?qno=191) 
-    * [讲两道常考的阶乘算法题](https://labuladong.github.io/article/?qno=172) 
-    * [如何高效寻找素数](https://labuladong.github.io/article/?qno=204) 
-    * [如何高效进行模幂运算](https://labuladong.github.io/article/?qno=372) 
-    * [如何寻找缺失的元素](https://labuladong.github.io/article/?qno=268) 
-    * [如何同时寻找缺失和重复的元素](https://labuladong.github.io/article/?qno=645) 
-    * [如何在无限序列中随机抽取元素](https://labuladong.github.io/article/?qno=382) 
-    * [一行代码就能解决的算法题](https://labuladong.github.io/article/?qno=292) 
-    * [几个反直觉的概率问题](https://labuladong.github.io/article/wx.html?wx=eCgxtBpsrZjJQ9KmhKrEJw) 
 
-  * [其他算法技巧](https://labuladong.github.io/algo/)
-    * [快速排序亲兄弟：快速选择算法](https://labuladong.github.io/article/?qno=215) 
-    * [分治算法详解：运算优先级](https://labuladong.github.io/article/?qno=241) 
-    * [一个方法解决三道区间问题](https://labuladong.github.io/article/?qno=1288) 
+最后祝大家学习愉快，在题海中自在遨游！
 
-  * [经典面试题](https://labuladong.github.io/algo/)
-    * [谁能想到，斗地主也能玩出算法](https://labuladong.github.io/article/?qno=659) 
-    * [东哥吃葡萄时竟然吃出一道算法题！](https://labuladong.github.io/article/wx.html?wx=3VjL7Gud1bQQrbjedzEhMQ) 
-    * [烧饼排序算法](https://labuladong.github.io/article/?qno=969) 
-    * [字符串乘法计算](https://labuladong.github.io/article/?qno=43) 
-    * [如何实现一个计算器](https://labuladong.github.io/article/?qno=224) 
-    * [如何高效解决接雨水问题](https://labuladong.github.io/article/?qno=42) 
-    * [如何寻找最长回文子串](https://labuladong.github.io/article/?qno=5) 
-    * [如何解决括号相关的问题](https://labuladong.github.io/article/?qno=20) 
-    * [如何判定完美矩形](https://labuladong.github.io/article/?qno=391) 
-    * [如何调度考生的座位](https://labuladong.github.io/article/?qno=855) 
-    * [二分查找高效判定子序列](https://labuladong.github.io/article/?qno=392) 
 
-### 第四章、通用计算机技术
+# 文章目录
 
-  * [Linux 文件系统都是什么鬼](https://labuladong.github.io/article/wx.html?wx=kJx07mbQQExV3JUGJo4nYw) 
-  * [Linux 的进程、线程、文件描述符是什么](https://labuladong.github.io/article/wx.html?wx=USb5e2Zoc0LRgRShRpTYfg) 
-  * [关于 Linux shell 你必须知道的](https://labuladong.github.io/article/wx.html?wx=h3SXmZ2yMtOKEKdACUx1Ew) 
-  * [Linux shell 的实用小技巧](https://labuladong.github.io/article/wx.html?wx=vCtu4lkcoixJELH2t9r7pg) 
-  * [Linux 管道符原理大揭秘](https://labuladong.github.io/article/wx.html?wx=p3rwjoCWN2WnH4xxtwDiyQ)
-  * [一文看懂 session 和 cookie](https://labuladong.github.io/article/wx.html?wx=lEAFW9ZSiqHJOfMnznPPHA) 
-  * [加密算法的前身今世](https://labuladong.github.io/article/wx.html?wx=HvZsBiNn9tPcq11fmWgcLQ) 
-  * [我用四个命令概括了 Git 的所有套路](https://labuladong.github.io/article/wx.html?wx=VdeQpFCL3GGsfOKrIRW6Hw) 
-  * [Git/SQL/正则表达式的在线练习平台](https://labuladong.github.io/article/wx.html?wx=rSc4b-mdZSLuqBmvPWF8Vw) 
+<!-- table start -->
+
+
+* [本站简介](https://labuladong.online/algo/home/)
+
+* [针对初学和速成的学习规划](https://labuladong.online/algo/menu/plan/)
+  * [速成目录学习规划](https://labuladong.online/algo/intro/quick-learning-plan/)
+  * [完整目录学习规划](https://labuladong.online/algo/intro/beginner-learning-plan/)
+  * [算法刷题的重点和坑](https://labuladong.online/algo/intro/how-to-learn-algorithms/)
+  * [习题章节的练习/复习方法](https://labuladong.online/algo/intro/how-to-practice/)
+
+* [配套学习工具使用指南](https://labuladong.online/algo/menu/tools/)
+  * [AI 助教随时答疑](https://labuladong.online/algo/intro/ai-assistant/)
+  * [算法可视化面板使用说明](https://labuladong.online/algo/intro/visualize/)
+  * [算法游戏玩法及汇总](https://labuladong.online/algo/intro/game/)
+  * [配套 Chrome 刷题插件](https://labuladong.online/algo/intro/chrome/)
+  * [配套 vscode/cursor 刷题插件](https://labuladong.online/algo/intro/vscode/)
+  * [配套 JetBrains 刷题插件](https://labuladong.online/algo/intro/jetbrains/)
+  * [本站付费会员](https://labuladong.online/algo/intro/site-vip/)
+
+* [入门：编程语言基础及练习](https://labuladong.online/algo/menu/)
+  * [本章导读](https://labuladong.online/algo/intro/programming-language-basic/)
+  * [C++ 语言基础](https://labuladong.online/algo/programming-language-basic/cpp/)
+  * [Java 语言基础](https://labuladong.online/algo/programming-language-basic/java/)
+  * [Golang 语言基础](https://labuladong.online/algo/programming-language-basic/golang/)
+  * [Python 语言基础](https://labuladong.online/algo/programming-language-basic/python/)
+  * [JavaScript 语言基础](https://labuladong.online/algo/intro/js/)
+  * [力扣/LeetCode 解题须知](https://labuladong.online/algo/intro/leetcode/)
+  * [编程语言刷题实践](https://labuladong.online/algo/programming-language-basic/lc-practice/)
+  * [ACM 模式代码模板](https://labuladong.online/algo/intro/acm-mode/)
+
+* [基础：数据结构及排序精讲](https://labuladong.online/algo/menu/quick-start/)
+  * [本章导读](https://labuladong.online/algo/intro/data-structure-basic/)
+  * [时间空间复杂度入门](https://labuladong.online/algo/intro/complexity-basic/)
+
+  * [手把手带你实现动态数组](https://labuladong.online/algo/menu/dynamic-array/)
+    * [数组（顺序存储）基本原理](https://labuladong.online/algo/data-structure-basic/array-basic/)
+    * [动态数组代码实现](https://labuladong.online/algo/data-structure-basic/array-implement/)
+
+  * [手把手带你实现单/双链表](https://labuladong.online/algo/menu/linked-list/)
+    * [链表（链式存储）基本原理](https://labuladong.online/algo/data-structure-basic/linkedlist-basic/)
+    * [链表代码实现](https://labuladong.online/algo/data-structure-basic/linkedlist-implement/)
+    * [【游戏】实现贪吃蛇](https://labuladong.online/algo/game/snake/)
+
+  * [数组链表的种种变换](https://labuladong.online/algo/menu/arr-linked/)
+    * [环形数组技巧及实现](https://labuladong.online/algo/data-structure-basic/cycle-array/)
+    * [跳表核心原理](https://labuladong.online/algo/data-structure-basic/skip-list-basic/)
+    * [位图原理及实现](https://labuladong.online/algo/data-structure-basic/bitmap/)
+
+  * [手把手带你实现队列/栈](https://labuladong.online/algo/menu/queue-stack/)
+    * [队列/栈基本原理](https://labuladong.online/algo/data-structure-basic/queue-stack-basic/)
+    * [用链表实现队列/栈](https://labuladong.online/algo/data-structure-basic/linked-queue-stack/)
+    * [用数组实现队列/栈](https://labuladong.online/algo/data-structure-basic/array-queue-stack/)
+    * [双端队列（Deque）原理及实现](https://labuladong.online/algo/data-structure-basic/deque-implement/)
+
+  * [哈希表的原理及实现](https://labuladong.online/algo/menu/hash-table/)
+    * [哈希表核心原理](https://labuladong.online/algo/data-structure-basic/hashmap-basic/)
+    * [用拉链法实现哈希表](https://labuladong.online/algo/data-structure-basic/hashtable-chaining/)
+    * [线性探查法的两个难点](https://labuladong.online/algo/data-structure-basic/linear-probing-key-point/)
+    * [线性探查法的两种代码实现](https://labuladong.online/algo/data-structure-basic/linear-probing-code/)
+    * [哈希集合的原理及代码实现](https://labuladong.online/algo/data-structure-basic/hash-set/)
+
+  * [哈希表结构的种种变换](https://labuladong.online/algo/menu/hash-table-variation/)
+    * [用链表加强哈希表（LinkedHashMap）](https://labuladong.online/algo/data-structure-basic/hashtable-with-linked-list/)
+    * [用数组加强哈希表（ArrayHashMap）](https://labuladong.online/algo/data-structure-basic/hashtable-with-array/)
+    * [布隆过滤器原理及实现](https://labuladong.online/algo/data-structure-basic/bloom-filter/)
+
+  * [二叉树结构及遍历](https://labuladong.online/algo/menu/binary-tree/)
+    * [二叉树基础及常见类型](https://labuladong.online/algo/data-structure-basic/binary-tree-basic/)
+    * [二叉树的递归/层序遍历](https://labuladong.online/algo/data-structure-basic/binary-tree-traverse-basic/)
+    * [DFS 和 BFS 的适用场景](https://labuladong.online/algo/data-structure-basic/use-case-of-dfs-bfs/)
+    * [多叉树的递归/层序遍历](https://labuladong.online/algo/data-structure-basic/n-ary-tree-traverse-basic/)
+
+  * [二叉树结构的种种变换](https://labuladong.online/algo/menu/binary-tree/)
+    * [二叉搜索树的应用及可视化](https://labuladong.online/algo/data-structure-basic/tree-map-basic/)
+    * [红黑树的完美平衡及可视化](https://labuladong.online/algo/data-structure-basic/rbtree-basic/)
+    * [Trie/字典树/前缀树原理及可视化](https://labuladong.online/algo/data-structure-basic/trie-map-basic/)
+    * [二叉堆核心原理及可视化](https://labuladong.online/algo/data-structure-basic/binary-heap-basic/)
+    * [二叉堆/优先级队列代码实现](https://labuladong.online/algo/data-structure-basic/binary-heap-implement/)
+    * [线段树核心原理及可视化](https://labuladong.online/algo/data-structure-basic/segment-tree-basic/)
+    * [数据压缩和霍夫曼树](https://labuladong.online/algo/data-structure-basic/huffman-tree/)
+    * [正在更新 ing](https://labuladong.online/algo/intro/updating/)
+
+  * [图结构基础及算法概览](https://labuladong.online/algo/menu/graph-theory/)
+    * [图论中的基本术语](https://labuladong.online/algo/data-structure-basic/graph-terminology/)
+    * [图结构的通用代码实现](https://labuladong.online/algo/data-structure-basic/graph-basic/)
+    * [图结构的 DFS/BFS 遍历](https://labuladong.online/algo/data-structure-basic/graph-traverse-basic/)
+    * [欧拉图和一笔画游戏](https://labuladong.online/algo/data-structure-basic/eulerian-graph/)
+    * [图结构最短路径算法概览](https://labuladong.online/algo/data-structure-basic/graph-shortest-path/)
+    * [最小生成树算法概览](https://labuladong.online/algo/data-structure-basic/graph-minimum-spanning-tree/)
+    * [Union Find 并查集原理](https://labuladong.online/algo/data-structure-basic/union-find-basic/)
+    * [正在更新 ing](https://labuladong.online/algo/intro/updating/)
+
+  * [十大排序算法原理及可视化](https://labuladong.online/algo/menu/sorting/)
+    * [本章导读](https://labuladong.online/algo/intro/sorting/)
+    * [排序算法的关键指标](https://labuladong.online/algo/data-structure-basic/sort-basic/)
+    * [选择排序所面临的问题](https://labuladong.online/algo/data-structure-basic/select-sort/)
+    * [拥有稳定性：冒泡排序](https://labuladong.online/algo/data-structure-basic/bubble-sort/)
+    * [运用逆向思维：插入排序](https://labuladong.online/algo/data-structure-basic/insertion-sort/)
+    * [突破 O(N^2)：希尔排序](https://labuladong.online/algo/data-structure-basic/shell-sort/)
+    * [妙用二叉树前序位置：快速排序](https://labuladong.online/algo/data-structure-basic/quick-sort/)
+    * [妙用二叉树后序位置：归并排序](https://labuladong.online/algo/data-structure-basic/merge-sort/)
+    * [二叉堆结构的运用：堆排序](https://labuladong.online/algo/data-structure-basic/heap-sort/)
+    * [全新的排序原理：计数排序](https://labuladong.online/algo/data-structure-basic/counting-sort/)
+    * [博采众长：桶排序](https://labuladong.online/algo/data-structure-basic/bucket-sort/)
+    * [基数排序（Radix Sort）](https://labuladong.online/algo/data-structure-basic/radix-sort/)
+
+  * [正在更新 ing](https://labuladong.online/algo/intro/updating/)
+
+
+* [第零章、核心刷题框架汇总](https://labuladong.online/algo/menu/core/)
+  * [本章导读](https://labuladong.online/algo/intro/core-intro/)
+  * [学习数据结构和算法的框架思维](https://labuladong.online/algo/essential-technique/algorithm-summary/)
+  * [双指针技巧秒杀七道链表题目](https://labuladong.online/algo/essential-technique/linked-list-skills-summary/)
+  * [双指针技巧秒杀七道数组题目](https://labuladong.online/algo/essential-technique/array-two-pointers-summary/)
+  * [滑动窗口算法核心代码模板](https://labuladong.online/algo/essential-technique/sliding-window-framework/)
+  * [二叉树系列算法核心纲领](https://labuladong.online/algo/essential-technique/binary-tree-summary/)
+  * [一个视角 + 两种思维模式搞定递归](https://labuladong.online/algo/essential-technique/understand-recursion/)
+  * [动态规划解题套路框架](https://labuladong.online/algo/essential-technique/dynamic-programming-framework/)
+  * [回溯算法解题套路框架](https://labuladong.online/algo/essential-technique/backtrack-framework/)
+  * [BFS 算法解题套路框架](https://labuladong.online/algo/essential-technique/bfs-framework/)
+  * [回溯算法秒杀所有排列/组合/子集问题](https://labuladong.online/algo/essential-technique/permutation-combination-subset-all-in-one/)
+  * [贪心算法解题套路框架](https://labuladong.online/algo/essential-technique/greedy/)
+  * [分治算法解题套路框架](https://labuladong.online/algo/essential-technique/divide-and-conquer/)
+  * [算法时空复杂度分析实用指南](https://labuladong.online/algo/essential-technique/complexity-analysis/)
+
+
+* [第一章、经典数据结构算法](https://labuladong.online/algo/menu/ds/)
+  * [手把手刷链表算法](https://labuladong.online/algo/menu/linked-list/)
+    * [双指针技巧秒杀七道链表题目](https://labuladong.online/algo/essential-technique/linked-list-skills-summary/)
+    * [链表双指针经典习题](https://labuladong.online/algo/problem-set/linkedlist-two-pointers/)
+    * [单链表的花式反转方法汇总](https://labuladong.online/algo/data-structure/reverse-linked-list-recursion/)
+    * [如何判断回文链表](https://labuladong.online/algo/data-structure/palindrome-linked-list/)
+
+  * [手把手刷数组算法](https://labuladong.online/algo/menu/array/)
+    * [双指针技巧秒杀七道数组题目](https://labuladong.online/algo/essential-technique/array-two-pointers-summary/)
+    * [【游戏】消消乐游戏](https://labuladong.online/algo/game/match-three/)
+    * [二维数组的花式遍历技巧](https://labuladong.online/algo/practice-in-action/2d-array-traversal-summary/)
+    * [数组双指针经典习题](https://labuladong.online/algo/problem-set/array-two-pointers/)
+    * [【游戏】生命游戏](https://labuladong.online/algo/game/life-game/)
+    * [一个方法团灭 nSum 问题](https://labuladong.online/algo/practice-in-action/nsum/)
+    * [小而美的算法技巧：前缀和数组](https://labuladong.online/algo/data-structure/prefix-sum/)
+    * [前缀和技巧经典习题](https://labuladong.online/algo/problem-set/perfix-sum/)
+    * [小而美的算法技巧：差分数组](https://labuladong.online/algo/data-structure/diff-array/)
+    * [滑动窗口算法核心代码模板](https://labuladong.online/algo/essential-technique/sliding-window-framework/)
+    * [滑动窗口算法经典习题](https://labuladong.online/algo/problem-set/sliding-window/)
+    * [滑动窗口延伸：Rabin Karp 字符匹配算法](https://labuladong.online/algo/practice-in-action/rabinkarp/)
+    * [二分搜索算法核心代码模板](https://labuladong.online/algo/essential-technique/binary-search-framework/)
+    * [二分搜索左闭右开写法](https://labuladong.online/algo/essential-technique/binary-search-left-open/)
+    * [实际运用二分搜索时的思维框架](https://labuladong.online/algo/frequency-interview/binary-search-in-action/)
+    * [二分搜索算法经典习题](https://labuladong.online/algo/problem-set/binary-search/)
+    * [带权重的随机选择算法](https://labuladong.online/algo/frequency-interview/random-pick-with-weight/)
+    * [田忌赛马背后的算法决策](https://labuladong.online/algo/practice-in-action/advantage-shuffle/)
+
+
+  * [经典队列/栈算法](https://labuladong.online/algo/menu/queue-stack/)
+    * [队列实现栈以及栈实现队列](https://labuladong.online/algo/data-structure/stack-queue/)
+    * [栈的经典习题](https://labuladong.online/algo/problem-set/stack/)
+    * [括号类问题汇总](https://labuladong.online/algo/problem-set/parentheses/)
+    * [队列的经典习题](https://labuladong.online/algo/problem-set/queue/)
+    * [单调栈算法模板解决三道例题](https://labuladong.online/algo/data-structure/monotonic-stack/)
+    * [单调栈的几种变体及经典习题](https://labuladong.online/algo/problem-set/monotonic-stack/)
+    * [单调队列结构解决滑动窗口问题](https://labuladong.online/algo/data-structure/monotonic-queue/)
+    * [单调队列的通用实现及经典习题](https://labuladong.online/algo/problem-set/monotonic-queue/)
+
+  * [手把手刷二叉树算法](https://labuladong.online/algo/menu/binary-tree/)
+    * [二叉树系列算法核心纲领](https://labuladong.online/algo/essential-technique/binary-tree-summary/)
+    * [二叉树心法（思路篇）](https://labuladong.online/algo/data-structure/binary-tree-part1/)
+    * [二叉树心法（构造篇）](https://labuladong.online/algo/data-structure/binary-tree-part2/)
+    * [二叉树心法（后序篇）](https://labuladong.online/algo/data-structure/binary-tree-part3/)
+    * [二叉树心法（序列化篇）](https://labuladong.online/algo/data-structure/serialize-and-deserialize-binary-tree/)
+    * [二叉搜索树心法（特性篇）](https://labuladong.online/algo/data-structure/bst-part1/)
+    * [二叉搜索树心法（基操篇）](https://labuladong.online/algo/data-structure/bst-part2/)
+    * [二叉搜索树心法（构造篇）](https://labuladong.online/algo/data-structure/bst-part3/)
+    * [二叉搜索树心法（后序篇）](https://labuladong.online/algo/data-structure/bst-part4/)
+
+  * [二叉树算法习题汇总](https://labuladong.online/algo/menu/100-bt/)
+    * [本章导读](https://labuladong.online/algo/intro/binary-tree-practice/)
+    * [用「遍历」思维解题 I](https://labuladong.online/algo/problem-set/binary-tree-traverse-i/)
+    * [用「遍历」思维解题 II](https://labuladong.online/algo/problem-set/binary-tree-traverse-ii/)
+    * [用「遍历」思维解题 III](https://labuladong.online/algo/problem-set/binary-tree-traverse-iii/)
+    * [用「分解问题」思维解题 I](https://labuladong.online/algo/problem-set/binary-tree-divide-i/)
+    * [用「分解问题」思维解题 II](https://labuladong.online/algo/problem-set/binary-tree-divide-ii/)
+    * [同时运用两种思维解题](https://labuladong.online/algo/problem-set/binary-tree-combine-two-view/)
+    * [利用后序位置解题 I](https://labuladong.online/algo/problem-set/binary-tree-post-order-i/)
+    * [利用后序位置解题 II](https://labuladong.online/algo/problem-set/binary-tree-post-order-ii/)
+    * [利用后序位置解题 III](https://labuladong.online/algo/problem-set/binary-tree-post-order-iii/)
+    * [运用层序遍历解题 I](https://labuladong.online/algo/problem-set/binary-tree-level-i/)
+    * [运用层序遍历解题 II](https://labuladong.online/algo/problem-set/binary-tree-level-ii/)
+    * [二叉搜索树经典例题 I](https://labuladong.online/algo/problem-set/bst1/)
+    * [二叉搜索树经典例题 II](https://labuladong.online/algo/problem-set/bst2/)
+
+  * [二叉树的拓展延伸](https://labuladong.online/algo/menu/more-bt/)
+    * [拓展：最近公共祖先系列解题框架](https://labuladong.online/algo/practice-in-action/lowest-common-ancestor-summary/)
+    * [拓展：如何计算完全二叉树的节点数](https://labuladong.online/algo/data-structure/count-complete-tree-nodes/)
+    * [拓展：惰性展开多叉树](https://labuladong.online/algo/data-structure/flatten-nested-list-iterator/)
+    * [拓展：归并排序详解及应用](https://labuladong.online/algo/practice-in-action/merge-sort/)
+    * [拓展：快速排序详解及应用](https://labuladong.online/algo/practice-in-action/quick-sort/)
+    * [拓展：用栈模拟递归迭代遍历二叉树](https://labuladong.online/algo/data-structure/iterative-traversal-binary-tree/)
+
+  * [经典数据结构设计](https://labuladong.online/algo/menu/design/)
+    * [算法就像搭乐高：手撸 LRU 算法](https://labuladong.online/algo/data-structure/lru-cache/)
+    * [算法就像搭乐高：手撸 LFU 算法](https://labuladong.online/algo/frequency-interview/lfu/)
+    * [常数时间删除/查找数组中的任意元素](https://labuladong.online/algo/data-structure/random-set/)
+    * [哈希表更多习题](https://labuladong.online/algo/problem-set/hash-table/)
+    * [优先级队列经典习题](https://labuladong.online/algo/problem-set/binary-heap/)
+    * [TreeMap/TreeSet 代码实现](https://labuladong.online/algo/data-structure-basic/tree-map-implement/)
+    * [基本线段树的代码实现](https://labuladong.online/algo/data-structure/segment-tree-implement/)
+    * [优化：实现动态线段树](https://labuladong.online/algo/data-structure/segment-tree-dynamic/)
+    * [优化：实现懒更新线段树](https://labuladong.online/algo/data-structure/segment-tree-lazy-update/)
+    * [线段树经典习题](https://labuladong.online/algo/problem-set/segment-tree/)
+    * [Trie 树代码实现](https://labuladong.online/algo/data-structure/trie-implement/)
+    * [Trie 树算法习题](https://labuladong.online/algo/problem-set/trie/)
+    * [设计考场座位分配算法](https://labuladong.online/algo/frequency-interview/exam-room/)
+    * [更多经典设计习题](https://labuladong.online/algo/problem-set/ds-design/)
+    * [实现霍夫曼编码压缩算法](https://labuladong.online/algo/data-structure/huffman-tree-implementation/)
+    * [一致性哈希算法的原理及实现](https://labuladong.online/algo/data-structure/consistent-hashing/)
+    * [拓展：如何实现一个计算器](https://labuladong.online/algo/data-structure/implement-calculator/)
+    * [拓展：两个二叉堆实现中位数算法](https://labuladong.online/algo/practice-in-action/find-median-from-data-stream/)
+    * [拓展：数组去重问题（困难版）](https://labuladong.online/algo/frequency-interview/remove-duplicate-letters/)
+
+
+  * [经典图算法](https://labuladong.online/algo/menu/graph/)
+    * [二分图判定算法](https://labuladong.online/algo/data-structure/bipartite-graph/)
+    * [Hierholzer 算法寻找欧拉路径](https://labuladong.online/algo/data-structure/eulerian-graph-hierholzer/)
+    * [欧拉路径经典习题](https://labuladong.online/algo/problem-set/eulerian-path/)
+    * [环检测算法](https://labuladong.online/algo/data-structure/cycle-detection/)
+    * [拓扑排序算法](https://labuladong.online/algo/data-structure/topological-sort/)
+    * [Union-Find 并查集算法](https://labuladong.online/algo/data-structure/union-find/)
+    * [并查集经典习题](https://labuladong.online/algo/problem-set/union-find/)
+    * [Dijkstra 算法核心原理及实现](https://labuladong.online/algo/data-structure/dijkstra/)
+    * [Dijkstra 拓展：带限制的最短路问题](https://labuladong.online/algo/data-structure/dijkstra-follow-up/)
+    * [Dijkstra 算法经典习题](https://labuladong.online/algo/problem-set/dijkstra/)
+    * [A* 算法核心原理及实现](https://labuladong.online/algo/data-structure/a-star/)
+    * [Kruskal 最小生成树算法](https://labuladong.online/algo/data-structure/kruskal/)
+    * [Prim 最小生成树算法](https://labuladong.online/algo/data-structure/prim/)
+
+* [第二章、经典暴力搜索算法](https://labuladong.online/algo/menu/braute-force-search/)
+  * [DFS/回溯算法](https://labuladong.online/algo/menu/dfs/)
+    * [回溯算法解题套路框架](https://labuladong.online/algo/essential-technique/backtrack-framework/)
+    * [回溯算法实践：数独和 N 皇后问题](https://labuladong.online/algo/practice-in-action/sudoku-nqueue/)
+    * [【游戏】实现数独作弊器](https://labuladong.online/algo/game/sudoku/)
+    * [回溯算法秒杀所有排列/组合/子集问题](https://labuladong.online/algo/essential-technique/permutation-combination-subset-all-in-one/)
+    * [解答回溯算法/DFS算法的若干疑问](https://labuladong.online/algo/essential-technique/backtrack-vs-dfs/)
+    * [一文秒杀所有岛屿题目](https://labuladong.online/algo/frequency-interview/island-dfs-summary/)
+    * [【游戏】扫雷 II](https://labuladong.online/algo/game/minesweeper-ii/)
+    * [球盒模型：回溯算法穷举的两种视角](https://labuladong.online/algo/practice-in-action/two-views-of-backtrack/)
+    * [回溯算法实践：括号生成](https://labuladong.online/algo/practice-in-action/generate-parentheses/)
+    * [回溯算法实践：集合划分](https://labuladong.online/algo/practice-in-action/partition-to-k-equal-sum-subsets/)
+    * [回溯算法经典习题 I](https://labuladong.online/algo/problem-set/backtrack-i/)
+    * [回溯算法经典习题 II](https://labuladong.online/algo/problem-set/backtrack-ii/)
+    * [回溯算法经典习题 III](https://labuladong.online/algo/problem-set/backtrack-iii/)
+
+  * [BFS 算法](https://labuladong.online/algo/menu/bfs/)
+    * [BFS 算法解题套路框架](https://labuladong.online/algo/essential-technique/bfs-framework/)
+    * [【游戏】求解迷宫](https://labuladong.online/algo/game/maze/)
+    * [【游戏】华容道游戏](https://labuladong.online/algo/game/huarong-road/)
+    * [【游戏】连连看游戏](https://labuladong.online/algo/game/connect-two/)
+    * [BFS 经典习题 I](https://labuladong.online/algo/problem-set/bfs/)
+    * [BFS 经典习题 II](https://labuladong.online/algo/problem-set/bfs-ii/)
+
+* [第三章、经典动态规划算法](https://labuladong.online/algo/menu/dp/)
+  * [动态规划基本技巧](https://labuladong.online/algo/menu/dp-basic/)
+    * [动态规划解题套路框架](https://labuladong.online/algo/essential-technique/dynamic-programming-framework/)
+    * [动态规划设计：最长递增子序列](https://labuladong.online/algo/dynamic-programming/longest-increasing-subsequence/)
+    * [base case 和备忘录的初始值怎么定？](https://labuladong.online/algo/dynamic-programming/memo-fundamental/)
+    * [动态规划穷举的两种视角](https://labuladong.online/algo/dynamic-programming/two-views-of-dp/)
+    * [动态规划和回溯算法的思维转换](https://labuladong.online/algo/dynamic-programming/word-break/)
+    * [对动态规划进行空间压缩](https://labuladong.online/algo/dynamic-programming/space-optimization/)
+    * [最优子结构原理和 dp 数组遍历方向](https://labuladong.online/algo/dynamic-programming/faq-summary/)
+
+  * [子序列类型问题](https://labuladong.online/algo/menu/subsequence/)
+    * [经典动态规划：编辑距离](https://labuladong.online/algo/dynamic-programming/edit-distance/)
+    * [动态规划设计：最大子数组](https://labuladong.online/algo/dynamic-programming/maximum-subarray/)
+    * [经典动态规划：最长公共子序列](https://labuladong.online/algo/dynamic-programming/longest-common-subsequence/)
+    * [动态规划之子序列问题解题模板](https://labuladong.online/algo/dynamic-programming/subsequence-problem/)
+
+  * [背包类型问题](https://labuladong.online/algo/menu/knapsack/)
+    * [经典动态规划：0-1 背包问题](https://labuladong.online/algo/dynamic-programming/knapsack1/)
+    * [经典动态规划：子集背包问题](https://labuladong.online/algo/dynamic-programming/knapsack2/)
+    * [经典动态规划：完全背包问题](https://labuladong.online/algo/dynamic-programming/knapsack3/)
+    * [背包问题的变体：目标和](https://labuladong.online/algo/dynamic-programming/target-sum/)
+
+  * [用动态规划玩游戏](https://labuladong.online/algo/menu/dp-game/)
+    * [动态规划之最小路径和](https://labuladong.online/algo/dynamic-programming/minimum-path-sum/)
+    * [动态规划帮我通关了《魔塔》](https://labuladong.online/algo/dynamic-programming/magic-tower/)
+    * [动态规划帮我通关了《辐射4》](https://labuladong.online/algo/dynamic-programming/freedom-trail/)
+    * [旅游省钱大法：加权最短路径](https://labuladong.online/algo/dynamic-programming/cheap-travel/)
+    * [多源最短路径：Floyd 算法](https://labuladong.online/algo/data-structure/floyd/)
+    * [经典动态规划：正则表达式](https://labuladong.online/algo/dynamic-programming/regular-expression-matching/)
+    * [经典动态规划：高楼扔鸡蛋](https://labuladong.online/algo/dynamic-programming/egg-drop/)
+    * [经典动态规划：戳气球](https://labuladong.online/algo/dynamic-programming/burst-balloons/)
+    * [经典动态规划：博弈问题](https://labuladong.online/algo/dynamic-programming/game-theory/)
+    * [一个方法团灭 LeetCode 打家劫舍问题](https://labuladong.online/algo/dynamic-programming/house-robber/)
+    * [一个方法团灭 LeetCode 股票买卖问题](https://labuladong.online/algo/dynamic-programming/stock-problem-summary/)
+
+  * [动态规划习题集](https://labuladong.online/algo/menu/dp-basic/)
+    * [打家劫舍问题模式](https://labuladong.online/algo/problem-set/rob-house/)
+    * [背包问题经典习题](https://labuladong.online/algo/problem-set/knapsack/)
+    * [动态规划经典习题 I](https://labuladong.online/algo/problem-set/dynamic-programming-i/)
+    * [动态规划经典习题 II](https://labuladong.online/algo/problem-set/dynamic-programming-ii/)
+
+  * [贪心类型问题](https://labuladong.online/algo/menu/greedy/)
+    * [贪心算法解题套路框架](https://labuladong.online/algo/essential-technique/greedy/)
+    * [老司机加油算法](https://labuladong.online/algo/frequency-interview/gas-station-greedy/)
+    * [贪心算法之区间调度问题](https://labuladong.online/algo/frequency-interview/interval-scheduling/)
+    * [扫描线技巧：安排会议室](https://labuladong.online/algo/frequency-interview/scan-line-technique/)
+    * [剪视频剪出一个贪心算法](https://labuladong.online/algo/frequency-interview/cut-video/)
+
+
+* [第四章、其他常见算法技巧](https://labuladong.online/algo/menu/other/)
+  * [数学运算技巧](https://labuladong.online/algo/menu/math/)
+    * [一行代码就能解决的算法题](https://labuladong.online/algo/frequency-interview/one-line-solutions/)
+    * [常用的位操作](https://labuladong.online/algo/frequency-interview/bitwise-operation/)
+    * [必知必会数学技巧](https://labuladong.online/algo/essential-technique/math-techniques-summary/)
+    * [【游戏】扫雷游戏地图生成器](https://labuladong.online/algo/game/minesweeper/)
+    * [谈谈游戏中的随机算法](https://labuladong.online/algo/frequency-interview/random-algorithm/)
+    * [讲两道常考的阶乘算法题](https://labuladong.online/algo/frequency-interview/factorial-problems/)
+    * [如何高效寻找素数](https://labuladong.online/algo/frequency-interview/print-prime-number/)
+    * [如何同时寻找缺失和重复的元素](https://labuladong.online/algo/frequency-interview/mismatch-set/)
+    * [几个反直觉的概率问题](https://labuladong.online/algo/frequency-interview/probability-problem/)
+    * [数学技巧相关习题](https://labuladong.online/algo/problem-set/math-tricks/)
+
+  * [经典面试题](https://labuladong.online/algo/menu/interview/)
+    * [如何高效解决接雨水问题](https://labuladong.online/algo/frequency-interview/trapping-rain-water/)
+    * [一文秒杀所有丑数系列问题](https://labuladong.online/algo/frequency-interview/ugly-number-summary/)
+    * [一个方法解决三道区间问题](https://labuladong.online/algo/practice-in-action/interval-problem-summary/)
+    * [谁能想到，斗地主也能玩出算法](https://labuladong.online/algo/practice-in-action/split-array-into-consecutive-subsequences/)
+    * [烧饼排序算法](https://labuladong.online/algo/frequency-interview/pancake-sorting/)
+    * [字符串乘法计算](https://labuladong.online/algo/practice-in-action/multiply-strings/)
+    * [如何判定完美矩形](https://labuladong.online/algo/frequency-interview/perfect-rectangle/)
+
+* [更多内容](https://labuladong.online/algo/menu/appendix/)
+  * [计算机基础知识](https://labuladong.online/algo/menu/computer-basics/)
+    * [AI 时代的前端开发入门教程](https://labuladong.online/algo/computer-science/frontend-introduction/)
+    * [现代加密技术入门](https://labuladong.online/algo/computer-science/encryption-intro/)
+    * [深入理解 session 和 cookie](https://labuladong.online/algo/other-skills/session-and-cookie/)
+    * [深入理解 JSON Web Token (JWT)](https://labuladong.online/algo/computer-science/how-jwt-works/)
+    * [认证和授权的区别与联系](https://labuladong.online/algo/computer-science/authentication-vs-authorization/)
+    * [深入理解 OAuth 2.0 授权框架](https://labuladong.online/algo/computer-science/oauth2-explained/)
+    * [OAuth 2.0 和 OIDC 认证](https://labuladong.online/algo/computer-science/oidc/)
+    * [OAuth 2.0 与 PKCE](https://labuladong.online/algo/computer-science/pkce/)
+    * [深入理解单点登录 (SSO)](https://labuladong.online/algo/computer-science/sso/)
+    * [深入理解数字证书和 CA](https://labuladong.online/algo/computer-science/certificate-and-ca/)
+    * [深入理解 TLS 密钥协商](https://labuladong.online/algo/computer-science/tls-key-exchange/)
+    * [深入理解 mTLS 双向认证](https://labuladong.online/algo/computer-science/mtls/)
+    * [初识 Linux 文件系统](https://labuladong.online/algo/other-skills/linux-file-system/)
+    * [Linux的进程、线程、文件描述符是什么](https://labuladong.online/algo/other-skills/linux-process/)
+    * [Linux 管道符的坑](https://labuladong.online/algo/other-skills/linux-pipeline/)
+    * [Linux shell 的使用技巧](https://labuladong.online/algo/other-skills/linux-shell/)
+    * [浅谈存储系统：LSM 树设计原理](https://labuladong.online/algo/other-skills/lsm-tree/)
+    * [正在更新 ing](https://labuladong.online/algo/intro/updating/)
+
+  * [设计模式](https://labuladong.online/algo/menu/design-pattern/)
+    * [单例模式](https://labuladong.online/algo/design-pattern/singleton/)
+    * [工厂方法模式](https://labuladong.online/algo/design-pattern/factory-method/)
+    * [抽象工厂模式](https://labuladong.online/algo/design-pattern/abstract-factory/)
+    * [生成器模式](https://labuladong.online/algo/design-pattern/builder/)
+    * [原型模式](https://labuladong.online/algo/design-pattern/prototype/)
+    * [适配器模式](https://labuladong.online/algo/design-pattern/adapter/)
+    * [组合模式](https://labuladong.online/algo/design-pattern/composite/)
+    * [装饰模式](https://labuladong.online/algo/design-pattern/decorator/)
+    * [桥接模式](https://labuladong.online/algo/design-pattern/bridge/)
+    * [观察者模式](https://labuladong.online/algo/design-pattern/observer/)
+    * [策略模式](https://labuladong.online/algo/design-pattern/strategy/)
+    * [正在更新 ing](https://labuladong.online/algo/intro/updating/)
+
+
+<!-- table end -->
 
 # 感谢如下大佬参与翻译
 

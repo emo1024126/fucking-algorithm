@@ -1,16 +1,12 @@
 # 一文读懂 session 和 cookie
 
 
-<p align='center'>
-<a href="https://github.com/labuladong/fucking-algorithm" target="view_window"><img alt="GitHub" src="https://img.shields.io/github/stars/labuladong/fucking-algorithm?label=Stars&style=flat-square&logo=GitHub"></a>
-<a href="https://www.zhihu.com/people/labuladong"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@labuladong-000000.svg?style=flat-square&logo=Zhihu"></a>
-<a href="https://i.loli.net/2020/10/10/MhRTyUKfXZOlQYN.jpg"><img src="https://img.shields.io/badge/公众号-@labuladong-000000.svg?style=flat-square&logo=WeChat"></a>
-<a href="https://space.bilibili.com/14089380"><img src="https://img.shields.io/badge/B站-@labuladong-000000.svg?style=flat-square&logo=Bilibili"></a>
-</p>
 
-![](../pictures/souyisou.png)
+![](https://labuladong.online/algo/images/souyisou1.png)
 
-**《labuladong 的算法秘籍》、《labuladong 的刷题笔记》两本 PDF 和刷题插件 2.0 免费开放下载，详情见 [labuladong 的刷题三件套正式发布](https://mp.weixin.qq.com/s/yN4cHQRsFa5SWlacopHXYQ)**~
+**通知：为满足广大读者的需求，网站上架 [速成目录](https://labuladong.online/algo/intro/quick-learning-plan/)，如有需要可以看下，谢谢大家的支持~另外，建议你在我的 [网站](https://labuladong.online/algo/) 学习文章，体验更好。**
+
+
 
 **-----------**
 
@@ -45,11 +41,11 @@ func cookie(w http.ResponseWriter, r *http.Request) {
 
 当浏览器访问对应网址时，通过浏览器的开发者工具查看此次 HTTP 通信的细节，可以看见服务器的回应发出了两次 `SetCookie` 命令：
 
-![](../pictures/session/1.png)
+![](https://labuladong.online/algo/images/session/1.png)
 
 在这之后，浏览器的请求中的 `Cookie` 字段就带上了这两个 cookie：
 
-![](../pictures/session/2.png)
+![](https://labuladong.online/algo/images/session/2.png)
 
 **cookie 的作用其实就是这么简单，无非就是服务器给每个客户端（浏览器）打的标签**，方便服务器辨认而已。当然，HTTP 还有很多参数可以设置 cookie，比如过期时间，或者让某个 cookie 只有某个特定路径才能使用等等。
 
@@ -69,7 +65,7 @@ session 就可以配合 cookie 解决这一问题，比如说一个 cookie 存�
 
 那如果我不让浏览器发送 cookie，每次都伪装成一个第一次来试用的小萌新，不就可以不断白嫖了么？浏览器会把网站的 cookie 以文件的形式存在某些地方（不同的浏览器配置不同），你把他们找到然后删除就行了。但是对于 Firefox 和 Chrome 浏览器，有很多插件可以直接编辑 cookie，比如我的 Chrome 浏览器就用的一款叫做 EditThisCookie 的插件，这是他们官网：
 
-![http://www.editthiscookie.com/](../pictures/session/3.png)
+![](https://labuladong.online/algo/images/session/3.png)
 
 这类插件可以读取浏览器在当前网页的 cookie，点开插件可以任意编辑和删除 cookie。**当然，偶尔白嫖一两次还行，不鼓励高频率白嫖，想常用还是掏钱吧，否则网站赚不到钱，就只能取消免费试用这个机制了**。
 
@@ -79,7 +75,7 @@ session 就可以配合 cookie 解决这一问题，比如说一个 cookie 存�
 
 session 的原理不难，但是具体实现它可是很有技巧的，一般需要三个组件配合完成，它们分别是 `Manager`、`Provider` 和 `Session` 三个类（接口）。
 
-![](../pictures/session/4.jpg)
+![](https://labuladong.online/algo/images/session/4.jpg)
 
 1、浏览器通过 HTTP 协议向服务器请求路径 `/content` 的网页资源，对应路径上有一个 Handler 函数接收请求，解析 HTTP header 中的 cookie，得到其中存储的 sessionID，然后把这个 ID 发给 `Manager`。
 
@@ -92,7 +88,6 @@ session 的原理不难，但是具体实现它可是很有技巧的，一般需
 那么你也许会问，为什么搞这么麻烦，直接在 Handler 函数中搞一个哈希表，然后存储 `sid` 和 `Session` 结构的映射不就完事儿了？
 
 **这就是设计层面的技巧了**，下面就来说说，为什么分成 `Manager`、`Provider` 和 `Session`。
-
 
 先从最底层的 `Session` 说。既然 session 就是键值对，为啥不直接用哈希表，而是要抽象出这么一个数据结构呢？
 
@@ -109,13 +104,14 @@ type Session interface {
     // 获取 key 对应的值
     Get(key interface{}) interface{}
     // 删除键 key
-	Delete(key interface{})
+    Delete(key interface{})
 }
 ```
 
 再说 `Provider` 为啥要抽象出来。我们上面那个图的 `Provider` 就是一个散列表，保存 `sid` 到 `Session` 的映射，但是实际中肯定会更加复杂。我们不是要时不时删除一些 session 吗，除了设置存活时间之外，还可以采用一些其他策略，比如 LRU 缓存淘汰算法，这样就需要 `Provider` 内部使用哈希链表这种数据结构来存储 session。
 
-PS：关于 LRU 算法的奥妙，参见前文「LRU 算法详解」。
+> [!TIP]
+> 关于 LRU 算法的奥妙，参见前文 [LRU 算法详解](https://labuladong.online/algo/data-structure/lru-cache/)。
 
 因此，`Provider` 作为一个容器，就是要屏蔽算法细节，以合理的数据结构和算法组织 `sid` 和 `Session` 的映射关系，只需要实现下面这几个方法实现对 session 的增删查改：
 
@@ -130,10 +126,9 @@ type Provider interface {
     // 修改一个session
     SessionUpdate(sid string)
     // 通过类似 LRU 的算法回收过期的 session
-	SessionGC(maxLifeTime int64)
+    SessionGC(maxLifeTime int64)
 }
 ```
-
 
 最后说 `Manager`，大部分具体工作都委托给 `Session` 和 `Provider` 承担了，`Manager` 主要就是一个参数集合，比如 session 的存活时间，清理过期 session 的策略，以及 session 的可用存储方式。`Manager` 屏蔽了操作的具体细节，我们可以通过 `Manager` 灵活地配置 session 机制。
 
@@ -143,14 +138,12 @@ https://github.com/alexedwards/scs
 
 https://github.com/astaxie/build-web-application-with-golang
 
+
+
+
+
 **＿＿＿＿＿＿＿＿＿＿＿＿＿**
 
-**刷算法，学套路，认准 labuladong，公众号和 [在线电子书](https://labuladong.gitee.io/algo/) 持续更新最新文章**。
 
-**本小抄即将出版，微信扫码关注公众号，后台回复「小抄」限时免费获取，回复「进群」可进刷题群一起刷题，带你搞定 LeetCode**。
 
-<p align='center'>
-<img src="../pictures/qrcode.jpg" width=200 >
-</p>
-
-======其他语言代码======
+![](https://labuladong.online/algo/images/souyisou2.png)
